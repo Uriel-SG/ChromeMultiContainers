@@ -13,6 +13,8 @@ For years, **Firefox** users have held a strategic advantage: *Multi-Account Con
 
 **ChromeMultiContainers** is the solution that brings this level of total isolation to Google Chrome, allowing you to manage multiple persistent or volatile sessions with a single click.
 
+**Note:** *Currently, the script is designed for Windows, but it can be easily adapted for Linux and macOS in just a few steps.*
+
 ---
 
 ## ⚖️ A Note on "Intellectual Honesty"
@@ -41,7 +43,7 @@ To keep your system clean and organized, all persistent session data is stored c
 While standard Chrome Incognito mode still shares some data between all open private windows, the **ANONYMOUS** session in this tool sets a new standard for privacy:
 
 1. **Total Isolation:** Every time you click "Anonymous", the script generates a unique `UUID` (Unique ID).
-2. **Infinite Instances:** You can open 10 different Anonymous sessions; each will be a "virgin" browser instance with zero connection to the others.
+2. **Infinite Instances:** You can open > 10 different Anonymous sessions; each will be a "virgin" browser instance with zero connection to the others.
 3. **Self-Destruction:** Data is saved in the system's temporary folder and is automatically discarded, leaving no trace in your main storage folder.
 
 ---
