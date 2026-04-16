@@ -32,7 +32,9 @@ class ContainerApp(ctk.CTk):
 
         self.label = ctk.CTkLabel(self, text="CHROME CONTAINERS", font=ctk.CTkFont(size=20, weight="bold"))
         self.label.pack(pady=(30, 20))
-
+        self.subtitle = ctk.CTkLabel(self, text="Seleziona una sessione isolata", font=ctk.CTkFont(size=12))
+        self.subtitle.pack(pady=(0, 20))
+        
         for name, info in self.containers.items():
             btn = ctk.CTkButton(
                 self, 
